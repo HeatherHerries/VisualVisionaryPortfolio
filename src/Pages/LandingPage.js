@@ -16,10 +16,10 @@ function LandingPage() {
         </div>
 
         <div className="social-container">
-          <img src={FBIcon} alt="" />
-          <img src={LinkedInIcon} alt="" />
-          <img src={TwitterIcon} alt="" />
-          <img src={GitHubIcon} alt="" />
+          <a href='#'><img src={FBIcon} alt="" /></a>
+          <a href='#'><img src={LinkedInIcon} alt="" /></a>
+          <a href='#'><img src={TwitterIcon} alt="" /></a>
+          <a href='#'><img src={GitHubIcon} alt="" /></a>
         </div>
 
         <div className="logo-container">
