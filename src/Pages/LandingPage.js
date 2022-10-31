@@ -25,7 +25,14 @@ function LandingPage() {
         <div className="logo-container">
           <p className='top-text'>Heather, the</p>
           <img src={VVLogo} alt="" />
-            <p className='tagline'>designer | {"{"} coder {"}"} | dreamer</p>
+        </div>
+
+        <div className="tagline-container">
+        <p className='tagline'>designer<span> | </span>{"{"} coder {"}"}<span> | </span>dreamer</p>
+        </div>
+
+        <div className="button-container">
+          <button>Learn More</button>
         </div>
 
         

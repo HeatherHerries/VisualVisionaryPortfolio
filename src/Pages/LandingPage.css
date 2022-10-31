@@ -53,14 +53,6 @@ body {
   margin-left: 22%;
 }
 
-.tagline {
-  color: #E8C8CB;
-  font-weight: 300;
-  font-size: 22px;
-  margin-top: 44%;
-  margin-left: 22%;
-}
-
 .logo-container img{
   position: absolute;
   width: 91%;
@@ -69,4 +61,38 @@ body {
   left: 0;
   margin-left: 8%;
   margin-top: 10%;
+}
+
+.tagline-container {
+  width: 90%;
+}
+
+.tagline {
+  color: #E8C8CB;
+  font-weight: 300;
+  font-size: 18.8px;
+  margin-top: 30%;
+  margin-left: 20%;
+}
+
+.tagline span {
+  color: #632D47;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.button-container {
+  width: 30%;
+  margin-top: 3rem;
+  margin-left: 8.7rem;
+}
+
+.button-container button {
+  background-color: #632D47;
+  color: #E8C8CB;
+  border: none;
+  padding: .6rem;
+  font-weight: 300;
+  font-size: 16px;
+  border-radius: 8px;
 }
