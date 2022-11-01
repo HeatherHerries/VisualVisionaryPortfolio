@@ -6,6 +6,7 @@ import LinkedInIcon from '../Assets/Images/linkedin-icon.svg'
 import TwitterIcon from '../Assets/Images/twitter-icon.svg'
 import GitHubIcon from '../Assets/Images/github-icon.svg'
 import VVLogo from '../Assets/Images/VisualVisionaryLogo.svg'
+import StandingCat from '../Assets/Images/standing-cat-icon.svg'
 
 function LandingPage() {
   return (
@@ -35,7 +36,10 @@ function LandingPage() {
           <button>Learn More</button>
         </div>
 
-        
+        <div className="cat-mom">
+          <img src={StandingCat} alt="" />
+          <p>...Oh, and cat mom</p>
+        </div>
       </div>
     </div>
   )

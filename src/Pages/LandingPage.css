@@ -39,8 +39,14 @@ body {
   width: 90%;
 }
 
- a{
+ .social-container a{
   cursor: pointer;
+  transition: 300ms ease-out;
+}
+
+.social-container a:hover {
+  transition: 300ms ease-in;
+  transform: scale(1.2);
 }
 
 .logo-container {
@@ -98,4 +104,27 @@ body {
   font-weight: 300;
   font-size: 16px;
   border-radius: 8px;
+  cursor: pointer;
+  transition: 300ms ease-out;
+  position: absolute;
+  z-index: 10;
+}
+
+.button-container button:hover {
+  transition: 300ms ease-in;
+  transform: scale(1.2);
+} 
+
+.cat-mom img {
+  position: absolute;
+  width: 80%;
+  bottom: 16.6%;
+  right: 38.1%;
+}
+
+.cat-mom p {
+  color: #34616D;
+  margin-top: 38%;
+  margin-left: 23%;
+  font-size: .8rem;
 }
