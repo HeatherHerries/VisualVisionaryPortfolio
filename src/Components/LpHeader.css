@@ -1,0 +1,89 @@
+.header-container {
+  position: absolute;
+  top: 0;
+  margin: 10vh 0 0 10vw;
+}
+
+.header-container img {
+  width: 80vw;
+}
+
+@media only screen and (min-width: 490px) {
+  .header-container {
+    margin: 10vh 0 0 20vw;
+  }
+  
+  .header-container img {
+    width: 60vw
+  }
+}
+
+@media only screen and (min-width: 590px) {
+  .header-container {
+    margin: 10vh 0 0 20vw;
+  }
+  
+  .header-container img {
+    width: 50vw
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .header-container {
+    margin: 10vh 0 0 10vw;
+  }
+  
+  .header-container img {
+    width: 45vw
+  }
+}
+
+@media only screen and (min-width: 768px) { 
+  .header-container {
+    margin: -5vh 0 0 5vw;
+  }
+  
+  .header-container img {
+    width: 60vw
+  }
+}
+
+@media only screen and (min-width: 870px) { 
+  
+  .header-container img {
+    width: 50vw
+  }
+}
+
+
+@media only screen and (min-width: 1201px) { 
+  .header-container {
+    margin: 0vh 0 0 15vw;
+  }
+  
+  .header-container img {
+    width: 40vw
+  }
+}
+
+@media only screen and (min-width: 1400px) { 
+  .header-container {
+    margin: 0vh 0 0 15vw;
+  }
+  
+  .header-container img {
+    width: 30vw
+  }
+}
+
+@media only screen and (min-width: 1530px) { 
+  .header-container {
+    margin: 0vh 0 0 15vw;
+  }
+  
+  .header-container img {
+    width: 30vw
+  }
+}
+
+

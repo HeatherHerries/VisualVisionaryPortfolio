@@ -1,0 +1,26 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: url('../Assets/Images/landing-bg-image.png') no-repeat right bottom ;
+  background-color: #224048;
+  background-attachment: fixed;
+  background-size: 110%;
+}
+
+@media only screen and (min-width: 769px) { 
+  .background {
+    background-size: 90%;
+  }
+}
+
+@media only screen and (min-width: 1025px) { 
+  .background {
+    background-size: 75%;
+  }
+}
+
+@media only screen and (min-width: 1201px) { 
+    .background {
+      background-size: 65%;
+    }
+}
