@@ -1,5 +1,5 @@
 import React from 'react'
-import './LpHeader.css'
+import '../Styles/LpHeader.css'
 import LPLogo from '../Assets/Images/lp-logo.svg'
 
 function LpHeader() {

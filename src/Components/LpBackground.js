@@ -1,5 +1,5 @@
 import React from 'react'
-import './LpBackground.css'
+import '../Styles/LpBackground.css'
 
 function LpBackground() {
   return (

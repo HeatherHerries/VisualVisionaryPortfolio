@@ -1,5 +1,5 @@
 import React from 'react'
-import './SocialLinks.css'
+import '../Styles/SocialLinks.css'
 import FacebookIcon from '../Assets/Images/facebook-icon.svg'
 import LinkedInIcon from '../Assets/Images/linkedin-icon.svg'
 import TwitterIcon from '../Assets/Images/twitter-icon.svg'
