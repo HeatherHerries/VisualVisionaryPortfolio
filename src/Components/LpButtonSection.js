@@ -6,7 +6,7 @@ function LpButtonSection() {
   return (
     <div className='button-section-container'>
 
-      <Link style={{textDecoration: 'none'}}to="#"><button>Learn More</button></Link> 
+      <Link style={{textDecoration: 'none'}}to="/AboutPage"><button>Learn More</button></Link> 
     </div>
   )
 }
