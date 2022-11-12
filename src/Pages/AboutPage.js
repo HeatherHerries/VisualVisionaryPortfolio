@@ -36,12 +36,12 @@ function AboutPage() {
 
         <div className="vb-image">
           <img src={VBImage} alt="" />
-        </div>
-
-        <Link style={{textDecoration: 'none'}}to="#"><Button 
+          <Link style={{textDecoration: 'none'}}to="#"><Button 
         text="See My Resume"
         /></Link>
-        <SectionBreakLine />
+        </div>
+
+        <SectionBreakLine class="vb-section-break-line"/>
       </div>
     </div>
   )

@@ -1,0 +1,17 @@
+.vision-began-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 8vw 0 8vw;
+  background-color: #224048;
+}
+
+.vb-header {
+  grid-column: 1 / 3;
+  text-align: center;
+}
+
+.vb-section-break-line {
+  grid-column: 1 / 3;
+  display: flex;
+  justify-content: center;
+}
