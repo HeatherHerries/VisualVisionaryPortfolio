@@ -1,10 +1,10 @@
 import React from 'react'
 import '../Styles/Button.css'
 
-function Button() {
+function Button({text}) {
   return (
     <div>
-      
+      <button>{text}</button>
     </div>
   )
 }

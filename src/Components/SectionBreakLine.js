@@ -4,7 +4,9 @@ import '../Styles/SectionBreakLine.css'
 function SectionBreakLine() {
   return (
     <div>
-      
+      <div className="sbl-container">
+        
+      </div>
     </div>
   )
 }

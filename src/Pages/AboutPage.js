@@ -4,6 +4,7 @@ import VBImage from '../Assets/Images/vb-image.png'
 import Navbar from '../Components/Navbar'
 import Button from '../Components/Button'
 import SectionBreakLine from '../Components/SectionBreakLine'
+import { Link } from "react-router-dom"
 
 function AboutPage() {
   return (
@@ -37,7 +38,9 @@ function AboutPage() {
           <img src={VBImage} alt="" />
         </div>
 
-        <Button />
+        <Link style={{textDecoration: 'none'}}to="#"><Button 
+        text="See My Resume"
+        /></Link>
         <SectionBreakLine />
       </div>
     </div>
@@ -45,3 +48,4 @@ function AboutPage() {
 }
 
 export default AboutPage
+
