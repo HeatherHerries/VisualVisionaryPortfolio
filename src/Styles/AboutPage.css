@@ -8,10 +8,32 @@
 .vb-header {
   grid-column: 1 / 3;
   text-align: center;
+  font-weight: 300;
+  font-size: 2.75rem;
+  padding: 10vh 0 5vh 0;
+  color: #E8C8CB;
+}
+
+.vb-text-content {
+  color: #E8C8CB;
+  font-weight: 300;
+  font-size: 1.125;
+  line-height: 200%;
+  text-align: justify;
+  margin-top: 6vh;
+}
+
+.vb-image img {
+  width: 33vw;
+  margin-left: 12vw;
+}
+
+.vb-button {
+  grid-column: 1 / 3;
+  padding: 0 0 10vh 35vw;
 }
 
 .vb-section-break-line {
   grid-column: 1 / 3;
-  display: flex;
-  justify-content: center;
+  padding: 0 0 10vh 23vw;
 }
