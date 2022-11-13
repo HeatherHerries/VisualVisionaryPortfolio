@@ -3,7 +3,9 @@ import '../Styles/AboutPage.css'
 import VBImage from '../Assets/Images/vb-image.png'
 import Navbar from '../Components/Navbar'
 import Button from '../Components/Button'
+import SectionHeader from '../Components/SectionHeader'
 import SectionBreakLine from '../Components/SectionBreakLine'
+
 import { Link } from "react-router-dom"
 
 function AboutPage() {
@@ -13,7 +15,9 @@ function AboutPage() {
 
       <div className="vision-began-container">
         <div className="vb-header">
-          <p>How the Vision Began</p>
+            <SectionHeader 
+            text="How The Vision Began"
+            />
         </div>
 
         <div className="vb-text-content">
@@ -43,15 +47,23 @@ function AboutPage() {
         </div>
 
         <div className="vb-button">
-        <Link style={{textDecoration: 'none'}}to="#"><Button 
-        text="See My Resume"
-        /></Link> 
+          <Link style={{textDecoration: 'none'}}to="#"><Button 
+          text="See My Resume"
+          /></Link> 
         </div>
 
         <div className="vb-section-break-line">
         <SectionBreakLine />
         </div>  
-        
+      
+      </div>
+
+      <div className="skills-envisioned-container">
+      <div className="se-header">
+            <SectionHeader 
+            text="Skills Envisioned"
+            />
+        </div>
       </div>
     </div>
   )

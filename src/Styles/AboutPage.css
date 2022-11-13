@@ -7,11 +7,7 @@
 
 .vb-header {
   grid-column: 1 / 3;
-  text-align: center;
-  font-weight: 300;
-  font-size: 2.75rem;
   padding: 10vh 0 5vh 0;
-  color: #E8C8CB;
 }
 
 .vb-text-content {
