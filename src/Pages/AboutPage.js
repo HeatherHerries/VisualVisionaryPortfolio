@@ -8,6 +8,20 @@ import Button from '../Components/Button'
 import SectionBreakLine from '../Components/SectionBreakLine'
 import DesignCardImg from '../Assets/Images/palette-icon.svg'
 import DevCardImg from '../Assets/Images/brackets-icon.svg'
+import BootstrapIcon from '../Assets/Images/bootstrap-icon.svg'
+import CanvaIcon from '../Assets/Images/canva-icon.svg'
+import CodepenIcon from '../Assets/Images/codepen-icon.svg'
+import FigmaIcon from '../Assets/Images/figma-icon.svg'
+import GitIcon from '../Assets/Images/git-icon.svg'
+import GithubFilledIcon from '../Assets/Images/github-filled-icon.svg'
+import JqueryIcon from '../Assets/Images/jquery-icon.svg'
+import MaterialUIIcon from '../Assets/Images/material-ui-icon.svg'
+import NodeJSIcon from '../Assets/Images/nodejs-icon.svg'
+import NPMIcon from '../Assets/Images/npm-icon.svg'
+import ReactIcon from '../Assets/Images/react-icon.svg'
+import VSCodeIcon from '../Assets/Images/vscode-icon.svg'
+import PhotoshopIcon from '../Assets/Images/photoshop-icon.svg'
+import XDIcon from '../Assets/Images/xd-icon.svg'
 
 import { Link } from "react-router-dom"
 
@@ -96,6 +110,27 @@ function AboutPage() {
             li3="Javascript"
             li4="React"
             />
+        </div>
+
+        <div className="tools-text">
+          <p>Tools I Use: </p>
+        </div>
+
+        <div className="tools-icon-container">
+          <img src={BootstrapIcon} alt="Bootstrap Icon" />
+          <img src={CanvaIcon} alt="Bootstrap Icon" />
+          <img src={CodepenIcon} alt="Bootstrap Icon" />
+          <img src={FigmaIcon} alt="Bootstrap Icon" />
+          <img src={GitIcon} alt="Bootstrap Icon" />
+          <img src={GithubFilledIcon} alt="Bootstrap Icon" />
+          <img src={JqueryIcon} alt="Bootstrap Icon" />
+          <img src={MaterialUIIcon} alt="Bootstrap Icon" />
+          <img src={NodeJSIcon} alt="Bootstrap Icon" />
+          <img src={NPMIcon} alt="Bootstrap Icon" />
+          <img src={ReactIcon} alt="Bootstrap Icon" />
+          <img src={VSCodeIcon} alt="Bootstrap Icon" />
+          <img src={PhotoshopIcon} alt="Bootstrap Icon" />
+          <img src={XDIcon} alt="Bootstrap Icon" />
         </div>
 
       </div>
