@@ -111,26 +111,34 @@ function AboutPage() {
             li4="React"
             />
         </div>
+        
+        <div className="tools-container">
+          <div className="tools-text">
+            <p>Tools I Use: </p>
+          </div>
 
-        <div className="tools-text">
-          <p>Tools I Use: </p>
-        </div>
+          <div className="tools-icon-container">
 
-        <div className="tools-icon-container">
-          <img src={BootstrapIcon} alt="Bootstrap Icon" />
-          <img src={CanvaIcon} alt="Bootstrap Icon" />
-          <img src={CodepenIcon} alt="Bootstrap Icon" />
-          <img src={FigmaIcon} alt="Bootstrap Icon" />
-          <img src={GitIcon} alt="Bootstrap Icon" />
-          <img src={GithubFilledIcon} alt="Bootstrap Icon" />
-          <img src={JqueryIcon} alt="Bootstrap Icon" />
-          <img src={MaterialUIIcon} alt="Bootstrap Icon" />
-          <img src={NodeJSIcon} alt="Bootstrap Icon" />
-          <img src={NPMIcon} alt="Bootstrap Icon" />
-          <img src={ReactIcon} alt="Bootstrap Icon" />
-          <img src={VSCodeIcon} alt="Bootstrap Icon" />
-          <img src={PhotoshopIcon} alt="Bootstrap Icon" />
-          <img src={XDIcon} alt="Bootstrap Icon" />
+            <div className="tic-top">
+              <img src={BootstrapIcon} alt="Bootstrap Icon" />
+              <img src={CanvaIcon} alt="Bootstrap Icon" />
+              <img src={CodepenIcon} alt="Bootstrap Icon" />
+              <img src={FigmaIcon} alt="Bootstrap Icon" />
+              <img src={GitIcon} alt="Bootstrap Icon" />
+              <img src={GithubFilledIcon} alt="Bootstrap Icon" />
+              <img src={JqueryIcon} alt="Bootstrap Icon" />
+            </div>
+
+            <div className="tic-bottom">
+              <img src={MaterialUIIcon} alt="Bootstrap Icon" />
+              <img src={NodeJSIcon} alt="Bootstrap Icon" />
+              <img src={NPMIcon} alt="Bootstrap Icon" />
+              <img src={ReactIcon} alt="Bootstrap Icon" />
+              <img src={VSCodeIcon} alt="Bootstrap Icon" />
+              <img src={PhotoshopIcon} alt="Bootstrap Icon" />
+              <img src={XDIcon} alt="Bootstrap Icon" />
+            </div>
+          </div>
         </div>
 
         <div className="se-button">

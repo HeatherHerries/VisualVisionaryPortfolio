@@ -33,3 +33,54 @@
   grid-column: 1 / 3;
   padding: 0 0 10vh 23vw;
 }
+
+.skills-envisioned-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 8vw 0 8vw;
+  background-color: #224048;
+}
+
+.se-header {
+grid-column: 1 / 3;
+}
+
+.se-card-design {
+  grid-column: 1 / 2;
+}
+
+.se-card-development {
+  grid-column: 2 / 3;
+}
+
+.tools-container {
+  grid-column: 1 / 3;
+}
+
+.tools-text {
+  color: #34616D;
+  font-size: 2rem;
+}
+
+.tools-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 47.25rem;
+  height: 9.875rem;
+  background:rgba(52, 97, 109, 0.3);
+  border-radius: 1.25rem;
+}
+
+.tools-icon-container img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+.se-button {
+  grid-column: 1 / 3;
+}
+
+.se-section-break-line {
+  grid-column: 1 / 3;
+}
