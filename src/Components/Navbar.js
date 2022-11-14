@@ -14,7 +14,7 @@ function Navbar() {
         <ul>
         <Link style={{textDecoration: 'none'}}to="/AboutPage"><li>About</li></Link> 
 
-        <Link style={{textDecoration: 'none'}}to="/ProjectsPage"><li>Portfolio</li></Link> 
+        <Link style={{textDecoration: 'none'}}to="/PortfolioPage"><li>Portfolio</li></Link> 
 
         <Link style={{textDecoration: 'none'}}to="/ContactsPage"><li>Contact</li></Link> 
           

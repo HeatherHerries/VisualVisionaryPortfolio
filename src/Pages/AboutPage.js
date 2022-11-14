@@ -133,6 +133,16 @@ function AboutPage() {
           <img src={XDIcon} alt="Bootstrap Icon" />
         </div>
 
+        <div className="se-button">
+          <Link style={{textDecoration: 'none'}}to="/PortfolioPage"><Button 
+          text="See My Portfolio"
+          /></Link> 
+        </div>
+
+        <div className="se-section-break-line">
+        <SectionBreakLine />
+        </div>  
+
       </div>
     </div>
   )
