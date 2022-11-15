@@ -210,6 +210,23 @@ function AboutPage() {
         </div>  
 
       </div>
+
+      <div className="visualization-aside-container">
+
+      <div className="va-header">
+          <SectionHeader 
+          text="Visualization Aside"
+          />
+      </div>
+
+      <div className="va-quote">
+        <p>“This is a really volcanic ensemble you're wearing today, it's really marvelous!”</p>
+        <p>-- Ducky, Pretty In Pink</p>
+      </div>
+
+      </div>
+
+
     </div>
   )
 }
