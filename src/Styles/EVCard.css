@@ -1,5 +1,5 @@
 .ev-card-container {
-  width: 30vw;
+  width: 27vw;
 }
 .ev-card-title {
   color: #E8C8CB;
@@ -9,6 +9,7 @@
 }
 
 .ev-card-content {
+  min-height: 89vh;
   background-color: #34616D;
   border-radius: 1.25rem;
   font-size: 1.125rem;

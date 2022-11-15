@@ -175,6 +175,7 @@ function AboutPage() {
 
         <div className="ev-cards-container">
           <EVCard 
+          className="ev-card1"
           title='Summon the Muse'
           para1='All creators have a process to summon their talent.
           My muse and I get along great, I give her what she needs and we make beautiful music together. 
