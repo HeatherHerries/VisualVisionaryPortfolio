@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/AboutPage.css'
 import VBImage from '../Assets/Images/vb-image.png'
+import EVImage from '../Assets/Images/evolution-of-a-vision-image.png'
 import Navbar from '../Components/Navbar'
 import SectionHeader from '../Components/SectionHeader'
 import SECard from '../Components/SECard'
@@ -147,6 +148,37 @@ function AboutPage() {
         </div>
 
         <div className="se-section-break-line">
+        <SectionBreakLine />
+        </div>  
+
+      </div>
+
+      <div className="evolution-vision-container">
+
+        <div className="ev-header">
+            <SectionHeader 
+            text="Evolution of a Vision"
+            />
+        </div>
+
+        <div className="ev-image">
+          <img src={EVImage} alt="" />
+        </div>
+
+        <div className="ev-text-content">
+          <p>All my projects large and small begin with the same simple vision: an app that solves your problem, performs without fail and looks great doing it! </p>
+          <br />
+          <p>Getting there can be a bumpy experience for sure. I might stomp around a bit, hung-up on solving a tangle of code or a stubborn design concept, but experience has taught me to trust the process, and that includes the stumbles and frustrations. 
+          </p>
+        </div>
+
+        <div className="ev-button">
+          <Link style={{textDecoration: 'none'}}to="/ContactPage"><Button 
+          text="Let's Work Together"
+          /></Link> 
+        </div>
+
+        <div className="ev-section-break-line">
         <SectionBreakLine />
         </div>  
 
