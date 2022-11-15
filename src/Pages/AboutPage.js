@@ -22,7 +22,6 @@ import ReactIcon from '../Assets/Images/react-icon.svg'
 import VSCodeIcon from '../Assets/Images/vscode-icon.svg'
 import PhotoshopIcon from '../Assets/Images/photoshop-icon.svg'
 import XDIcon from '../Assets/Images/xd-icon.svg'
-
 import { Link } from "react-router-dom"
 
 function AboutPage() {
@@ -120,23 +119,23 @@ function AboutPage() {
           <div className="tools-icon-container">
 
             <div className="tic-top">
-              <img src={BootstrapIcon} alt="Bootstrap Icon" />
-              <img src={CanvaIcon} alt="Bootstrap Icon" />
-              <img src={CodepenIcon} alt="Bootstrap Icon" />
-              <img src={FigmaIcon} alt="Bootstrap Icon" />
-              <img src={GitIcon} alt="Bootstrap Icon" />
-              <img src={GithubFilledIcon} alt="Bootstrap Icon" />
-              <img src={JqueryIcon} alt="Bootstrap Icon" />
+              <Link style={{textDecoration: 'none'}}to='https://getbootstrap.com/'><img src={BootstrapIcon} alt="Bootstrap Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://www.canva.com/'><img src={CanvaIcon} alt="Canva Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://codepen.io/'><img src={CodepenIcon} alt="Codepen Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://www.figma.com/'><img src={FigmaIcon} alt="Figma Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://git-scm.com/'><img src={GitIcon} alt="Git Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://github.com/'><img src={GithubFilledIcon} alt="Github Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://jquery.com/'><img src={JqueryIcon} alt="Jquery Icon" /></Link>
             </div>
 
             <div className="tic-bottom">
-              <img src={MaterialUIIcon} alt="Bootstrap Icon" />
-              <img src={NodeJSIcon} alt="Bootstrap Icon" />
-              <img src={NPMIcon} alt="Bootstrap Icon" />
-              <img src={ReactIcon} alt="Bootstrap Icon" />
-              <img src={VSCodeIcon} alt="Bootstrap Icon" />
-              <img src={PhotoshopIcon} alt="Bootstrap Icon" />
-              <img src={XDIcon} alt="Bootstrap Icon" />
+              <Link style={{textDecoration: 'none'}}to='https://mui.com/'><img src={MaterialUIIcon} alt="Material UI Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://nodejs.org/en/'><img src={NodeJSIcon} alt="NodeJS Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://npmjs.com/'><img src={NPMIcon} alt="NPM Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://reactjs.org/'><img src={ReactIcon} alt="React Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://code.visualstudio.com/'><img src={VSCodeIcon} alt="VS Code Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://www.adobe.com/products/photoshop.html'><img src={PhotoshopIcon} alt="Photoshop Icon" /></Link>
+              <Link style={{textDecoration: 'none'}}to='https://www.adobe.com/products/xd.html'><img src={XDIcon} alt="XD Icon" /></Link>
             </div>
           </div>
         </div>

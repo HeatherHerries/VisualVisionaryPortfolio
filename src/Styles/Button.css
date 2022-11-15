@@ -6,7 +6,6 @@ button {
   font-weight: 300;
   color: #E8C8CB;
   padding: 0.84375rem 2.5rem 0.84375rem 2.5rem;
-  cursor: pointer;
   transition: 300ms ease-out;
 }
 
