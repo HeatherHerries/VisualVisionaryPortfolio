@@ -5,6 +5,7 @@ import EVImage from '../Assets/Images/evolution-of-a-vision-image.png'
 import Navbar from '../Components/Navbar'
 import SectionHeader from '../Components/SectionHeader'
 import SECard from '../Components/SECard'
+import EVCard from '../Components/EVCard'
 import Button from '../Components/Button'
 import SectionBreakLine from '../Components/SectionBreakLine'
 import DesignCardImg from '../Assets/Images/palette-icon.svg'
@@ -170,6 +171,31 @@ function AboutPage() {
           <br />
           <p>Getting there can be a bumpy experience for sure. I might stomp around a bit, hung-up on solving a tangle of code or a stubborn design concept, but experience has taught me to trust the process, and that includes the stumbles and frustrations. 
           </p>
+        </div>
+
+        <div className="ev-cards-container">
+          <EVCard 
+          title='Summon the Muse'
+          para1='All creators have a process to summon their talent.
+          My muse and I get along great, I give her what she needs and we make beautiful music together. 
+          '
+          para2='Mostly, I’m a workout, coffee, hot tub, and earbuds girl! I like a good sweat and I like a good soak. Add the perfect song to my morning joe and I’m a rocket-fueled creative problem solver. And that’s when I go to work, and my muse has to hang on for the ride.
+          '/>
+          
+          <EVCard 
+          title='Get to Work'
+          para1='Relentless research, hard work, and a touch of the divine. That’s my recipe.  
+          '
+          para2='The research is truly the foundation and everything grows from that. Sleeves rolled up, I do the deep dive … What apps and brands are setting the bar in my client’s industry? What can I learn from them? How can I improve upon their success and avoid their failures? Are there new coding techniques or design trends that would push my client’s site to another level? I’m voracious for knowledge and any advantage I can get.
+        '/>
+
+          <EVCard 
+          title='Love Your Site'
+          para1='Designing and developing apps is my jam. Every day, I get to geek-out on the technical nuts and bolts of high-performance sites, AND I get to let my hair down and flex my visual creativity too!  
+          '
+          para2='It has taken hard work to get here and more hard work to stay at the top of my game. But it’s a labor of love and I take my craft seriously. After all, clients entrust me with their brand. That’s why I always deliver my very best. I have too much personal pride and respect to do anything less. Besides, I’m having way too much fun to half-ass it! 
+        '/>
+          
         </div>
 
         <div className="ev-button">
