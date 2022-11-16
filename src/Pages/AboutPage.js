@@ -6,6 +6,7 @@ import Navbar from '../Components/Navbar'
 import SectionHeader from '../Components/SectionHeader'
 import SECard from '../Components/SECard'
 import EVCard from '../Components/EVCard'
+import VACard from '../Components/VACard'
 import Button from '../Components/Button'
 import SectionBreakLine from '../Components/SectionBreakLine'
 import DesignCardImg from '../Assets/Images/palette-icon.svg'
@@ -24,6 +25,10 @@ import ReactIcon from '../Assets/Images/react-icon.svg'
 import VSCodeIcon from '../Assets/Images/vscode-icon.svg'
 import PhotoshopIcon from '../Assets/Images/photoshop-icon.svg'
 import XDIcon from '../Assets/Images/xd-icon.svg'
+import CassetteTape from '../Assets/Images/tape-icon.svg'
+import SewingMachine from '../Assets/Images/sewing-machine-icon.svg'
+import Recliner from '../Assets/Images/recliner-icon.svg'
+import StationWagon from '../Assets/Images/station-wagon-icon.svg'
 import { Link } from "react-router-dom"
 
 function AboutPage() {
@@ -175,7 +180,6 @@ function AboutPage() {
 
         <div className="ev-cards-container">
           <EVCard 
-          className="ev-card1"
           title='Summon the Muse'
           para1='All creators have a process to summon their talent.
           My muse and I get along great, I give her what she needs and we make beautiful music together. 
@@ -218,15 +222,40 @@ function AboutPage() {
           text="Visualization Aside"
           />
       </div>
+      
+      <div className="va-cards-container">
+        <VACard 
+          vaimage1={CassetteTape}
+          vaalt1="Cassette Tape Icon"
+          vapara1="My friends call me an old soul with a dreamer spirit, but really I just like mixtapes,"  
+          vapara2="designing and making my own clothes Pretty In Pink style," 
+          vaimage2={SewingMachine}
+          vaalt2="Sewing Machine Icon"
+        />
+
+        <div className="vertical-section-break-line">
+        </div>
+
+        <VACard 
+        vaimage1={Recliner}
+        vaalt1="Recliner Icon"
+        vapara1="sitting back all comfy like in my poofy recliner doing the Netflix and chill with my cat Biggie Smalls and"
+        vapara2="I'm always down to take a roadtrip or two just as long as I can sit in one of the  backwards facing seats  of the station wagon."
+        vaimage2={StationWagon}
+        vaalt2="Station Wagon Icon"
+        />
+      </div>
 
       <div className="va-quote">
         <p>“This is a really volcanic ensemble you're wearing today, it's really marvelous!”</p>
-        <p>-- Ducky, Pretty In Pink</p>
+        <p className='va-quote-ref'>-- Ducky, Pretty In Pink</p>
       </div>
 
+      <div className="ev-section-break-line">
+        <SectionBreakLine />
+      </div>  
+
       </div>
-
-
     </div>
   )
 }
