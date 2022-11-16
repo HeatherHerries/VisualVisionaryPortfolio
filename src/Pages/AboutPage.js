@@ -9,6 +9,7 @@ import EVCard from '../Components/EVCard'
 import VACard from '../Components/VACard'
 import Button from '../Components/Button'
 import SectionBreakLine from '../Components/SectionBreakLine'
+import Footer from '../Components/Footer'
 import DesignCardImg from '../Assets/Images/palette-icon.svg'
 import DevCardImg from '../Assets/Images/brackets-icon.svg'
 import BootstrapIcon from '../Assets/Images/bootstrap-icon.svg'
@@ -255,6 +256,10 @@ function AboutPage() {
         <SectionBreakLine />
       </div>  
 
+      </div>
+
+      <div className="footer-container">
+        <Footer />
       </div>
     </div>
   )

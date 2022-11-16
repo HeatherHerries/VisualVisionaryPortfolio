@@ -1,0 +1,45 @@
+.footer {
+  width: 80vw;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.footer-logo img {
+  width: 12.5rem;
+  grid-column: 2 / 3;
+  margin-left: 36.5vw;
+  transition: 300ms ease-out;
+}
+
+.footer-logo img:hover {
+  transform: scale(1.1);
+  transition: 300ms ease-in;
+}
+
+.footer-links {
+  grid-column: 3 / 4;
+}
+
+.footer-links li {
+  list-style: none;
+  color: #34616D;
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+  transition: 300ms ease-out;
+}
+
+.footer-links li:hover {
+  transform: scale(1.1);
+  transition: 300ms ease-in;
+  color: #78979F;
+}
+
+.footer-copyright {
+  grid-column: 1 / 5;
+  color: #34616D;
+  text-align: center;
+  margin-left: 21vw;
+}
