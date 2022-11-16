@@ -12,12 +12,11 @@ function Navbar() {
 
       <div className="page-links">
         <ul>
-        <Link style={{textDecoration: 'none'}}to="/AboutPage"><li>About</li></Link> 
+          <Link style={{textDecoration: 'none'}}to="/AboutPage"><li>About</li></Link> 
 
-        <Link style={{textDecoration: 'none'}}to="/PortfolioPage"><li>Portfolio</li></Link> 
+          <Link style={{textDecoration: 'none'}}to="/PortfolioPage"><li>Portfolio</li></Link> 
 
-        <Link style={{textDecoration: 'none'}}to="/ContactPage"><li>Contact</li></Link> 
-          
+          <Link style={{textDecoration: 'none'}}to="/ContactPage"><li>Contact</li></Link> 
         </ul>
       </div>
     </div>

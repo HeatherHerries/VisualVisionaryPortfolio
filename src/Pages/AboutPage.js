@@ -34,10 +34,11 @@ import { Link } from "react-router-dom"
 
 function AboutPage() {
   return (
-    <div>
+    <>
       <Navbar />
 
       <div className="vision-began-container">
+
         <div className="vb-header">
             <SectionHeader 
             text="How The Vision Began"
@@ -155,7 +156,7 @@ function AboutPage() {
         </div>
 
         <div className="se-section-break-line">
-        <SectionBreakLine />
+          <SectionBreakLine />
         </div>  
 
       </div>
@@ -211,7 +212,7 @@ function AboutPage() {
         </div>
 
         <div className="ev-section-break-line">
-        <SectionBreakLine />
+          <SectionBreakLine />
         </div>  
 
       </div>
@@ -219,19 +220,19 @@ function AboutPage() {
       <div className="visualization-aside-container">
 
       <div className="va-header">
-          <SectionHeader 
-          text="Visualization Aside"
-          />
+        <SectionHeader 
+        text="Visualization Aside"
+        />
       </div>
       
       <div className="va-cards-container">
         <VACard 
-          vaimage1={CassetteTape}
-          vaalt1="Cassette Tape Icon"
-          vapara1="My friends call me an old soul with a dreamer spirit, but really I just like mixtapes,"  
-          vapara2="designing and making my own clothes Pretty In Pink style," 
-          vaimage2={SewingMachine}
-          vaalt2="Sewing Machine Icon"
+        vaimage1={CassetteTape}
+        vaalt1="Cassette Tape Icon"
+        vapara1="My friends call me an old soul with a dreamer spirit, but really I just like mixtapes,"  
+        vapara2="designing and making my own clothes Pretty In Pink style," 
+        vaimage2={SewingMachine}
+        vaalt2="Sewing Machine Icon"
         />
 
         <div className="vertical-section-break-line">
@@ -261,7 +262,7 @@ function AboutPage() {
       <div className="footer-container">
         <Footer />
       </div>
-    </div>
+    </>
   )
 }
 
