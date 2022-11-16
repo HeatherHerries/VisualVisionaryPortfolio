@@ -2,11 +2,7 @@ import React from 'react'
 import '../Styles/Button.css'
 
 function Button({text}) {
-  return (
-    <div>
-      <button>{text}</button>
-    </div>
-  )
+  return <button>{text}</button>;
 }
 
 export default Button
