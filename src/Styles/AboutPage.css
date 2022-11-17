@@ -1,8 +1,11 @@
+.about-page-container {
+  background-color: #224048;
+}
 .vision-began-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0 8vw 0 8vw;
-  background-color: #224048;
+  
 }
 
 .vb-header {
@@ -38,7 +41,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0 8vw 0 8vw;
-  background-color: #224048;
 }
 
 .se-header {
@@ -115,7 +117,6 @@ margin: 4vh 0 8vh 0;
 }
 
 .evolution-vision-container {
-  background-color:#224048;
   display: grid;
   padding: 0 8vw 0 8vw;
   grid-template-columns: 1fr 1fr;
@@ -169,7 +170,6 @@ margin: 4vh 0 8vh 0;
 }
 
 .visualization-aside-container {
-  background-color: #224048;
   display: grid;
   padding: 3vh 8vw 0 8vw;
   grid-template-columns: 1fr 1fr;
@@ -203,8 +203,4 @@ margin: 4vh 0 8vh 0;
 
 .va-quote-ref {
   padding: 2vh 0 0 47vw;
-}
-
-.footer-container {
-  background-color: #224048;
 }

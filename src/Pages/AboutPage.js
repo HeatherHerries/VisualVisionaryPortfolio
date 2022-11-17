@@ -35,7 +35,7 @@ import { Link } from "react-router-dom"
 function AboutPage() {
 
   return (
-    <>
+    <div className='about-page-container'>
       <Navbar />
 
       <div className="vision-began-container">
@@ -254,10 +254,8 @@ function AboutPage() {
 
       </div>
 
-      <div className="footer-container">
         <Footer />
-      </div>
-    </>
+    </div>
   )
 }
 
