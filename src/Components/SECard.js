@@ -1,7 +1,9 @@
 import React from 'react'
 import '../Styles/SECard.css'
 
-function SECard({header1, image, alt,header2, para, header3, li1, li2, li3, li4}) {
+function SECard({header1, image, alt,header2, para, header3, lis}) {
+
+
   return (
     <div className='se-card-container'>
       
@@ -29,10 +31,13 @@ function SECard({header1, image, alt,header2, para, header3, li1, li2, li3, li4}
 
         <div className="se-bullets">
           <ul>
-            <li>{li1}</li>
-            <li>{li2}</li>
-            <li>{li3}</li>
-            <li>{li4}</li>
+
+          
+
+          {
+            lis.map(li => (<li>{li}</li>))
+          }
+            
           </ul>
         </div>
         

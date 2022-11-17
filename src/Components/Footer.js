@@ -4,6 +4,22 @@ import Logo from '../Assets/Images/logo.svg'
 import { Link } from "react-router-dom"
 
 function Footer() {
+  const links = [
+    {
+      url: '/AboutPage',
+      text: 'About'
+    },
+
+    {
+      url: '/PortfolioPage',
+      text: 'Portfolio'
+    },
+
+    {
+      url: '/ContactPage',
+      text: 'Contact'
+    }
+  ]
   return (
     <div className='footer'>
       <div className="footer-logo">
@@ -12,11 +28,10 @@ function Footer() {
 
       <div className="footer-links">
         <ul>
-          <Link className='link' style={{textDecoration: 'none'}}to="/AboutPage"><li>About</li></Link> 
-
-          <Link className='link' style={{textDecoration: 'none'}}to="/PortfolioPage"><li>Portfolio</li></Link> 
-
-          <Link style={{textDecoration: 'none'}}to="/ContactPage"><li>Contact</li></Link> 
+          {
+            links.map(link => (<Link style={{textDecoration: 'none'}}to={link.url}><li>{link.text}</li></Link>))
+          }
+          
         </ul>
       </div>
       

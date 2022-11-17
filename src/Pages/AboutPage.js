@@ -33,6 +33,7 @@ import StationWagon from '../Assets/Images/station-wagon-icon.svg'
 import { Link } from "react-router-dom"
 
 function AboutPage() {
+
   return (
     <>
       <Navbar />
@@ -98,10 +99,7 @@ function AboutPage() {
           header2="Bring Your Audience Home"
           para="I design beautiful sites with an organic connection to your brand. And a fiery dash of soul to keep your visitors on their toes. "
           header3="Skills"
-          li1="UI / UX"
-          li2="Websites / Apps"
-          li3="Branding"
-          li4="Logos"
+          lis={['UI / UX', 'Websites / Apps', 'Branding', 'Logos' ]}
           />
         </div>
 
@@ -113,10 +111,7 @@ function AboutPage() {
           header2="Flawless Technical Precision"
           para="Built with leading-edge technology and practices, your site will never take personal days and it will always serve your guests with a clean experience."
           header3="Languages"
-          li1="HTML / HTML5"
-          li2="CSS / Sass"
-          li3="Javascript"
-          li4="React"
+          lis= { ['HTML / HTML5', 'CSS / Sass', 'Javascript', 'React'] }
           />
         </div>
         
