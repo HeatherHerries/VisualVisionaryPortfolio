@@ -1,3 +1,15 @@
 .portfolio-page-container {
   background-color: #224048;
 }
+
+.vr-header {
+  padding-top: 5vh;
+}
+
+.vr-dev-container {
+  padding: 10vh 0 0 0;
+}
+
+.vr-design-container {
+  padding: 10vh 0 10vh 0;
+}

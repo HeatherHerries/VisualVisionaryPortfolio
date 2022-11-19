@@ -91,8 +91,9 @@ function AboutPage() {
           />
         </div>
 
-        <div className="se-card-design">
-          <SECard 
+
+
+        <div className="se-card-design"> <SECard 
           header1="Design"
           image={DesignCardImg}
           alt="SVG of painters palette"
@@ -100,7 +101,7 @@ function AboutPage() {
           para="I design beautiful sites with an organic connection to your brand. And a fiery dash of soul to keep your visitors on their toes. "
           header3="Skills"
           lis={['UI / UX', 'Websites / Apps', 'Branding', 'Logos' ]}
-          />
+          /> 
         </div>
 
         <div className="se-card-development">
