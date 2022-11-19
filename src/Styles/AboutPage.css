@@ -1,5 +1,6 @@
 .about-page-container {
   background-color: #224048;
+  overflow-x: hidden;
 }
 .vision-began-container {
   display: grid;
