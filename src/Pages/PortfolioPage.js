@@ -36,20 +36,20 @@ function PortfolioPage() {
           <PortCardHolder
           sbText="Development" 
           pchPara="A flawless user experience is vital to maintain site engagement. I employ industry-best technology and techniques to keep your site functioning and your visitors confident. Have a peek at some of my smooth-running creations below."
-          pchImg1={DevImg1}
-          pchImg2={DevImg2}
-          pchImg3={DevImg3}
-          pchImg4={DevImg4}
-          pchImg5={DevImg5}
-          pchImg6={DevImg6}
-          // pchImgs={[
-          //   {DevImg1}, 
-          //   {DevImg2}, 
-          //   {DevImg3}, 
-          //   {DevImg4},
-          //   {DevImg5}, 
-          //   {DevImg6} 
-          // ]}
+          // pchImg1={DevImg1}
+          // pchImg2={DevImg2}
+          // pchImg3={DevImg3}
+          // pchImg4={DevImg4}
+          // pchImg5={DevImg5}
+          // pchImg6={DevImg6}
+          pchImgs={[
+            {DevImg1}, 
+            {DevImg2}, 
+            {DevImg3}, 
+            {DevImg4},
+            {DevImg5}, 
+            {DevImg6} 
+          ]}
           />
         </div>
 
@@ -58,12 +58,21 @@ function PortfolioPage() {
             sbText="Design" 
             pchPara="My thoughtful visual designs will celebrate your brand, connect with your audience, and create a natural flow to navigate the site. I hope these samples of my work will spark your imagination.
             "
-            pchImg1={DesignImg1}
-            pchImg2={DesignImg2}
-            pchImg3={DesignImg3}
-            pchImg4={DesignImg4}
-            pchImg5={DesignImg5}
-            pchImg6={DesignImg6}
+            // pchImg1={DesignImg1}
+            // pchImg2={DesignImg2}
+            // pchImg3={DesignImg3}
+            // pchImg4={DesignImg4}
+            // pchImg5={DesignImg5}
+            // pchImg6={DesignImg6}
+
+            pchImgs={[
+              {DesignImg1},
+              {DesignImg2},
+              {DesignImg3},
+              {DesignImg4},
+              {DesignImg5},
+              {DesignImg6}
+            ]}
             />
           </div>
         </div>
