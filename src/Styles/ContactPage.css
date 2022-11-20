@@ -1,0 +1,16 @@
+.contact-page-container {
+  background-color: #224048;
+  padding: 0 8vw 0 8vw;
+}
+
+.contact-hero-banner {
+ background-color: #632D47;
+ width: 85vw;
+ height: 35vh;
+}
+
+.contact-hero-banner p {
+  color: #E8C8CB;
+  font-size: 4.625rem;
+  font-weight: 300;
+}
