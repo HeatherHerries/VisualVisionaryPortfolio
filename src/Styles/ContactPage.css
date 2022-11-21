@@ -7,10 +7,30 @@
  background-color: #632D47;
  width: 85vw;
  height: 35vh;
+ border-radius: 1.25rem;
 }
 
 .contact-hero-banner p {
   color: #E8C8CB;
   font-size: 4.625rem;
   font-weight: 300;
+}
+
+.submit textarea{
+  text-align: center;
+  width: 12rem;
+  height: 3rem;
+  padding: .6rem 0 0 0;
+  color: #632D47;
+  font-size: 1.875rem;
+  transition: 300ms ease-out;
+}
+
+.submit textarea:hover {
+  transform: scale(1.1);
+  transition: 300ms ease-in;
+}
+
+.con-social-links{
+  
 }
