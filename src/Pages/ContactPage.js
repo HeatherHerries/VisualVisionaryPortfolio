@@ -18,9 +18,12 @@ function ContactPage() {
       <Navbar />
       
       <div className="contact-hero">
-       <ExLrgHeading 
-       text="What's Your Vision?"
-       />
+        
+        <div className="con-ex-lrg-heading">
+        <ExLrgHeading 
+        text="What's Your Vision?"
+        />
+       </div>
 
         <img src={ContactPageImg} alt="Heather sitting on ledge." />
 
