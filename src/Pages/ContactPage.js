@@ -34,7 +34,7 @@ function ContactPage() {
       </div>
 
       <div className="contact-form">
-        <div className="lrg-input">
+        <div className="lrg-input input">
           <Form 
           type="textarea"
           placeholder="Tell me about your vision..."
@@ -42,7 +42,7 @@ function ContactPage() {
           rows="5"/>
         </div>
 
-        <div className="sm-input">
+        <div className="sm-input input">
           <Form 
           type="text"
           placeholder="Name"
@@ -51,7 +51,7 @@ function ContactPage() {
         />
         </div>
 
-        <div className="sm-input">
+        <div className="sm-input input">
           <Form 
           type="tel"
           placeholder="Phone"
@@ -60,7 +60,7 @@ function ContactPage() {
           />
         </div>
 
-        <div className="sm-input">
+        <div className="sm-input input">
           <Form 
           type="email"
           placeholder="Email"
@@ -69,14 +69,18 @@ function ContactPage() {
           />
          </div> 
 
-        <div className="submit">
+        <div className="submit input">
           <Form 
           type="submit"
           value="Submit"
           />
         </div>        
       </div>
-      <SectionBreakLine />
+
+      <div className="con-sbl">
+        <SectionBreakLine />
+      </div>
+
       <div className="small-contact-cards">
 
         <div className="email-card">
@@ -97,13 +101,20 @@ function ContactPage() {
           />
         </div>
 
-        <div className="con-social-links">
-          <SocialLinks />
+      </div>
+
+      <div className="con-social-links">
+        <SocialLinks />
+
+        <div className="con-sbl">
           <SectionBreakLine />
         </div>
-      </div>
-      <Footer />
 
+      </div>
+      
+      <div className="con-footer">
+        <Footer />
+      </div>
     </div>
   )
 }
