@@ -3,7 +3,7 @@
   height: 100vh;
   background: url('../Assets/Images/landing-bg-image.png') no-repeat right bottom ;
   background-size: 70vw;
-  background-color: #224048;
+  background-color: #224048
 }
 
 .lp-social-links {
@@ -21,4 +21,3 @@
 .lp-content img {
   width: 35vw;
 }
-
