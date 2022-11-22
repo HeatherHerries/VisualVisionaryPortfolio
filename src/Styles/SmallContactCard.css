@@ -1,0 +1,22 @@
+.small-contact-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #632D47;
+  width: 26.25rem;
+  height: 6.1875rem;
+  border-radius: 1.25rem;
+}
+.small-contact-card img {
+  width: 4.6875rem;
+  height: 4.6875rem;
+}
+.con-card-heading {
+  font-size: 1.875rem;
+  color: #E8C8CB;
+}
+
+.con-card-subheading {
+  color: #E8C8CB;
+  font-weight: 300;
+}

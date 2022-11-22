@@ -1,0 +1,94 @@
+.contact-page-container {
+  background-color: #224048;
+  padding: 0 8vw 0 8vw;
+}
+
+.contact-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.con-ex-lrg-heading {
+grid-column: 1 / 2;
+}
+
+.contact-hero img {
+  position: absolute;
+  grid-column: 2 / 3;
+  margin: -17.7vh 0 0 33vw;
+  width: 50vw;
+  transform: rotate(-1.5deg);
+}
+
+.contact-hero-banner {
+  grid-column: 1 / 3;
+ background-color: #632D47;
+ width: 85vw;
+ height: 35vh;
+ border-radius: 1.25rem;
+ margin: 8.5vh 0 0 0;
+}
+
+.contact-hero-banner p {
+  color: #E8C8CB;
+  font-size: 4.625rem;
+  font-weight: 300;
+  width: 40vw;
+  margin: 8vh 0 0 5vw;
+}
+
+.contact-form {
+  margin: 20vh 0 0 0;
+}
+
+.input {
+  margin: 0 0 2vh 0;
+}
+
+.submit textarea{
+  text-align: center;
+  width: 12rem;
+  height: 3rem;
+  padding: .6rem 0 0 0;
+  color: #632D47;
+  font-size: 1.875rem;
+  transition: 300ms ease-out;
+  margin: 0 0 10vh 35vw;
+}
+
+.submit textarea:hover {
+  transform: scale(1.1);
+  transition: 300ms ease-in;
+}
+
+.con-sbl {
+  margin: 0 0 10vh 21vw;
+}
+
+.small-contact-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2vh 0;
+}
+
+.email-card {
+  margin: 0 0 0 6vw;
+}
+
+.phone-card {
+  margin: 0 6vw 0 0;
+}
+
+.social-links-container {
+width: 50vw;
+margin: 0 0 8vh 14vw;
+}
+
+.con-social-links img{
+  width: 6.67vw;
+  height: 12.17vh;
+}
+
+.footer {
+  width: 55vw;
+}

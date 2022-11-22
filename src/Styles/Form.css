@@ -1,0 +1,10 @@
+textarea {
+  width: 85vw;
+  background-color: #E8C8CB;
+  border-radius: 1.25rem;
+  border: none;
+  resize: none;
+  padding: 0.625rem 0 0 0.625rem;
+  font-size: 1.875rem;
+  font-weight: 300;
+}
