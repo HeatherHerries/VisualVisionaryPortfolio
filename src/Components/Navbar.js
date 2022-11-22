@@ -27,7 +27,7 @@ function Navbar() {
         <Link to="/"><img src={Logo} alt="VisualVisionary Logo" /></Link>
       </div>
 
-      <div className="page-links">
+      <div>
         <ul>
           {
             links.map(link => (<Link style={{textDecoration:'none'}}to={link.url}><li>{link.text}</li></Link>))

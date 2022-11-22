@@ -3,6 +3,7 @@
   height: 100vh;
   background: url('../Assets/Images/landing-bg-image.png') no-repeat right bottom ;
   background-size: 70vw;
+<<<<<<< HEAD
   background-color: #224048;
 }
 
@@ -20,5 +21,23 @@
 
 .lp-content img {
   width: 35vw;
+=======
+  background-color: #224048
+>>>>>>> 8186e1b842a8dbc89752b228c0c2bd78d1960040
 }
 
+.lp-social-links {
+  margin-left: 55vw;
+}
+
+.lp-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: -10vh 0 0 -30vw;
+}
+
+.lp-content img {
+  width: 35vw;
+}
