@@ -30,14 +30,10 @@ function SECard({header1, image, alt,header2, para, header3, lis}) {
         </div>
 
         <div className="se-bullets">
-          <ul>
-
-          
-
+          <ul> 
           {
             lis.map(li => (<li>{li}</li>))
-          }
-            
+          } 
           </ul>
         </div>
         

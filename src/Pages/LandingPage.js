@@ -16,6 +16,7 @@ function LandingPage() {
 
       <div className="lp-content">
         <img src={LPImage} alt="" />
+
         <Link style={{textDecoration: 'none'}}to="/ContactPage"><Button 
           text="Learn More"
           /></Link> 
@@ -25,3 +26,4 @@ function LandingPage() {
 }
 
 export default LandingPage
+
