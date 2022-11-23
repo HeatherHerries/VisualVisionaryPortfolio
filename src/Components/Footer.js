@@ -22,19 +22,20 @@ function Footer() {
   ]
   return (
     <div className='footer'>
-      <div className="footer-logo">
-        <Link style={{textDecoration: 'none'}}to="/"><img src={Logo} alt="VisualVisionary Logo" /></Link>
-      </div>
+      <div className="footer-top">
+        <div className="footer-logo">
+          <Link style={{textDecoration: 'none'}}to="/"><img src={Logo} alt="VisualVisionary Logo" /></Link>
+        </div>
 
-      <div className="footer-links">
-        <ul>
-          {
-            links.map(link => (<Link style={{textDecoration: 'none'}}to={link.url}><li>{link.text}</li></Link>))
-          }
-          
-        </ul>
+        <div className="footer-links">
+          <ul>
+            {
+              links.map(link => (<Link style={{textDecoration: 'none'}}to={link.url}><li>{link.text}</li></Link>))
+            }
+            
+          </ul>
+        </div>
       </div>
-      
       <div className="footer-copyright">
         <p>Designed & Created With Love By Yours Truly</p>
         <p>Copyright © 2022  VisualVisionary, www.visualvisionary.com</p>

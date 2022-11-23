@@ -124,8 +124,9 @@ function PortfolioPage() {
         </div>
       </div>
       
-      <Footer />
-
+      <div className="port-footer">
+        <Footer />
+      </div>
     </div>
   )
 }

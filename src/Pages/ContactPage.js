@@ -105,11 +105,10 @@ function ContactPage() {
 
       <div className="con-social-links">
         <SocialLinks />
-
-        <div className="con-sbl">
+      </div>
+      
+      <div className="con-sbl">
           <SectionBreakLine />
-        </div>
-
       </div>
       
       <div className="con-footer">

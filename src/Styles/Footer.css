@@ -1,16 +1,20 @@
 .footer {
-  width: 80vw;
+  width: 33vw;
   justify-content: center;
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 0 0 34.5vw;
 }
-
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-column: 1 / 3;
+}
 
 .footer-logo img {
   width: 12.5rem;
-  grid-column: 2 / 3;
-  margin-left: 36.5vw;
   transition: 300ms ease-out;
 }
 
@@ -19,9 +23,6 @@
   transition: 300ms ease-in;
 }
 
-.footer-links {
-  grid-column: 3 / 4;
-}
 
 .footer-links li {
   list-style: none;
@@ -38,8 +39,7 @@
 }
 
 .footer-copyright {
-  grid-column: 1 / 5;
+  grid-column: 1 / 3;
   color: #34616D;
   text-align: center;
-  margin-left: 21vw;
 }

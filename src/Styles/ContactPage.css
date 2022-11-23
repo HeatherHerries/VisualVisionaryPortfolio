@@ -6,6 +6,7 @@
 .contact-hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 4rem 0 0 0;
 }
 
 .con-ex-lrg-heading {
@@ -79,16 +80,18 @@ grid-column: 1 / 2;
   margin: 0 6vw 0 0;
 }
 
-.social-links-container {
-width: 50vw;
-margin: 0 0 8vh 14vw;
+.con-social-links {
+width: 40vw;
+margin: 0 0 0 27vw;
 }
 
 .con-social-links img{
   width: 6.67vw;
   height: 12.17vh;
+  margin: 0 4vw 5vh 0
 }
 
-.footer {
-  width: 55vw;
+.con-footer {
+  width: 2px;
+  margin: 0 0 0 -10vw;
 }
