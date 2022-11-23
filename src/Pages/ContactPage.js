@@ -88,7 +88,7 @@ function ContactPage() {
           icon={ConEmailIcon}
           alt="Email Icon"
           headingText="Send Me an Email"
-          subheadingText="heather@thevisualvisionary.com"
+          subheadingText="heather@visualvisionary.net"
           />
         </div>
 
@@ -110,7 +110,7 @@ function ContactPage() {
       <div className="con-sbl">
           <SectionBreakLine />
       </div>
-      
+
       <div className="con-footer">
         <Footer />
       </div>

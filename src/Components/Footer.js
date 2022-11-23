@@ -38,7 +38,7 @@ function Footer() {
       </div>
       <div className="footer-copyright">
         <p>Designed & Created With Love By Yours Truly</p>
-        <p>Copyright © 2022  VisualVisionary, www.visualvisionary.com</p>
+        <p>Copyright © 2022  VisualVisionary, www.visualvisionary.net</p>
       </div>
     </div>
   )
