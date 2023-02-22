@@ -3,16 +3,16 @@
   justify-content: space-around;
   align-items: center;
   background-color: #632D47;
-  width: 26.25rem;
-  height: 6.1875rem;
+  width: 48vw;
+  height: 12vw;
   border-radius: 1.25rem;
 }
 .small-contact-card img {
-  width: 4.6875rem;
-  height: 4.6875rem;
+  width: 9vw;
+  height: 9vw;
 }
 .con-card-heading {
-  font-size: 1.875rem;
+  font-size: 4vw;
   color: #E8C8CB;
 }
 

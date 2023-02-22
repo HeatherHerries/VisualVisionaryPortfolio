@@ -24,7 +24,7 @@
 }
 
 .navbar-container ul li {
-  font-size: 1.25rem;
+  font-size: 2.25vw;
   color: #34616D;
   list-style-type: none;
   transition: 300ms ease-out;

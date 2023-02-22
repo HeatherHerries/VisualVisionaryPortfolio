@@ -17,20 +17,23 @@
 .vb-text-content {
   color: #E8C8CB;
   font-weight: 300;
-  font-size: 1.125;
-  line-height: 200%;
-  text-align: justify;
+  font-size: 1.9vw;
+  line-height: 3vw;
+  text-align: center;
   margin-top: 6vh;
+  width: 48vw;
 }
 
 .vb-image img {
-  width: 33vw;
-  margin-left: 12vw;
+  width: 38vw;
+  margin-left: 1vw;
+  margin-top: 4vw;
 }
 
 .vb-button {
   grid-column: 1 / 3;
   padding: 0 0 10vh 35vw;
+  margin-top: 4vw;
 }
 
 .vb-section-break-line {
@@ -65,7 +68,7 @@ margin: 4vh 0 8vh 0;
 
 .tools-text {
   color: #34616D;
-  font-size: 2rem;
+  font-size: 2.5vw;
 }
 
 .tools-icon-container {
@@ -73,15 +76,16 @@ margin: 4vh 0 8vh 0;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 47.25rem;
-  height: 9.875rem;
+  width: 65vw;
+  height: 20vw;
   background:rgba(52, 97, 109, 0.3);
   border-radius: 1.25rem;
+  margin-left: -5vw;
 }
 
 .tools-icon-container img {
-  width: 3.125rem;
-  height: 3.125rem;
+  width: 4vw;
+  height: 4vw;
   transition: 300ms ease-out;
 }
 
@@ -91,9 +95,7 @@ margin: 4vh 0 8vh 0;
   cursor: pointer;
 }
 
-.tic-top {
-  margin-right: 2rem;
-}
+
 
 .tic-top img {
   margin-right: 2rem;
@@ -114,19 +116,20 @@ margin: 4vh 0 8vh 0;
 
 .se-section-break-line {
   grid-column: 1 / 3;
-  margin: 0 0 10vh 20vw;
+  margin: 0 0 10vh 21vw;
 }
 
 .evolution-vision-container {
   display: grid;
   padding: 0 8vw 0 8vw;
   grid-template-columns: 1fr 1fr;
+  margin-top: -3vw;
 }
 
 .ev-header {
   grid-column: 1 / 3;
   width: 84vw;
-  margin: 4vh 0 2vh 0;
+  margin: 4vh 0 2vh -1.5vw;
 }
 
 .ev-image {
@@ -143,12 +146,13 @@ margin: 4vh 0 8vh 0;
 .ev-text-content {
   grid-column: 2 / 3;
   color:#E8C8CB;
-  font-size: 1.125rem;
-  line-height: 2.5rem;
+  font-size: 1.9vw;
+  line-height: 3vw;
   font-weight: 300;
-  text-align: justify;
-  padding-top: 20vh;
-  width: 36vw;
+  text-align: center;
+  padding-top: 9vw;
+  width: 40vw;
+  margin-left: -4vw;
 }
 
 .ev-cards-container {
@@ -157,17 +161,17 @@ margin: 4vh 0 8vh 0;
   justify-content: space-between;
   width: 95vw;
   padding-right: 10vw;
-  margin: -10vh 0 10vh 0;
+  margin: -2vw 0 10vh -2vw;
 }
 
 .ev-button {
   grid-column: 1 / 3;
-  margin: 0 0 10vh 33vw;
+  margin: 0 0 10vh 31vw;
 }
 
 .ev-section-break-line {
   grid-column: 1 / 3;
-  margin: 0 0 10vh 22vw;
+  margin: 0 0 10vh 21vw;
 }
 
 .visualization-aside-container {
@@ -178,13 +182,14 @@ margin: 4vh 0 8vh 0;
 
 .va-header {
   grid-column: 1 / 3;
-  margin: 0 9vw 0 0;
+  margin: 0 12vw 0 0;
   padding-bottom: 8vh;
 }
 
 .va-cards-container {
   display: flex;
   justify-content: space-between;
+  margin-left: -1vw
 }
 
 .vertical-section-break-line {
@@ -195,11 +200,11 @@ margin: 4vh 0 8vh 0;
 }
 
 .va-quote {
-  font-size: 1.5rem;
+  font-size: 2.5vw;
   font-weight: 300;
   color: #34616D;
   grid-column: 1 / 3;
-  margin: 8vh 0 8vh 11vw;
+  margin: 8vh 0 8vh 0;
 }
 
 .va-quote-ref {

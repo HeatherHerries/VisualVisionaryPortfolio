@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   width: 40vw;
-  height: 70vh;
-  margin-top: 1vh;
+  height: 47vw;
+  margin-top: 1vw;
   background-color: #E8C8CB;
   border-radius: 20px;
 }
@@ -15,36 +15,35 @@
 }
 
 .se-card-header1 {
-  font-size: 2rem;
+  font-size: 4vw;
   margin-top: 2rem;
 }
 
 .se-card-icon img{
-  width: 9.375rem;
-  height: 9.375rem;
+  width: 11vw;
   margin-top: .5rem;
 }
 
 .se-card-header2 {
-font-size: 2rem;
-margin-top: 1rem;
+font-size: 3vw;
+margin-top: 1.5vw;
 }
 
 .se-card-para {
-  font-size: 1.125rem;
+  font-size: 2.3vw;
   font-weight: 300;
-  margin-top: 1rem;
+  margin-top: 1.8vw;
 }
 
 .se-card-header3 {
-  font-size: 2rem;
-  padding-top: 2rem;
+  font-size: 3vw;
+  padding-top: 2.5vw;
 }
 
 .se-bullets {
-  font-size: 1.125rem;
+  font-size: 2.3vw;
   font-weight: 300;
   text-align: start;
   padding-left: 12.5vw;
-  margin-top: 1.5rem;
+  margin-top: 1vw;
 }

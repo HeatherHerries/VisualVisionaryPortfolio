@@ -1,24 +1,27 @@
 .va-card-container {
   width: 37vw;
+  margin-left: -1vw;
 }
 
 .va-card-container p {
-  font-size: 1.125rem;
+  font-size: 2vw;
   font-weight: 300;
   color: #E8C8CB;
+  line-height: 2.5vw;
   width: 15vw;
-  text-align: justify;
+  text-align: center;
 }
 
 .va-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10vw;
 }
 
 .va-top img {
-  width: 15.625rem;
-  height: 15.625rem;
+  width: 20vw;
+  height: 20vw;
 }
 
 .va-bottom {
@@ -28,6 +31,6 @@
 }
 
 .va-bottom img {
-  width: 15.625rem;
-  height: 15.625rem;
+  width: 20vw;
+  height: 20vw;
 }

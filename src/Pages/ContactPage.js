@@ -26,12 +26,13 @@ function ContactPage() {
        </div>
 
         <img src={ContactPageImg} alt="Heather sitting on ledge." />
+      </div>
 
         <div className="contact-hero-banner">
-          <p>Hit me up, let's bring it to life!</p>
+          <p className="contact-banner-text">Hit me up, let's bring it to life!</p>
         </div>
 
-      </div>
+      
 
       <div className="contact-form">
         <div className="lrg-input input">
