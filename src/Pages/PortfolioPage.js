@@ -3,7 +3,6 @@ import '../Styles/PortfolioPage.css'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import SectionHeader from '../Components/SectionHeader'
-import PortCardHolder from '../Components/PortCardHolder'
 import DevImg1 from '../Assets/Images/dev-placeholder-1.png'
 import DevImg2 from '../Assets/Images/dev-placeholder-2.png'
 import DevImg3 from '../Assets/Images/dev-placeholder-3.png'
@@ -24,109 +23,24 @@ function PortfolioPage() {
     <div className="portfolio-page-container">
       <Navbar />
     
-      <div className="visions-revealed-container">
-
-        <div className="vr-header">
-          <SectionHeader 
-          text="Visions Revealed"
-          />
-
-        <div 
-        className="vr-dev-container">
-          <PortCardHolder
-          sbText="Development" 
-          pchPara="A flawless user experience is vital to maintain site engagement. I employ industry-best technology and techniques to keep your site functioning and your visitors confident. Have a peek at some of my smooth-running creations below."
-
-          pchImgs={[
-            {
-            img: DevImg1, 
-            index: '1',
-            alt: 'Placeholder Image'
-            },
-
-            {
-            img: DevImg2, 
-            index: '2',
-            alt: 'Placeholder Image'
-            },
-
-            {
-            img: DevImg3, 
-            index: '3',
-            alt: 'Placeholder Image'
-            },
-
-            {
-            img: DevImg4, 
-            index: '4',
-            alt: 'Placeholder Image'
-            },
-
-            {
-            img: DevImg5, 
-            index: '5',
-            alt: 'Placeholder Image'
-            },
-
-            {
-            img: DevImg6, 
-            index: '6',
-            alt: 'Placeholder Image'
-            },
-          ]}
-          />
-        </div>
-
-        <div className="vr-design-container">
-          <PortCardHolder
-            sbText="Design" 
-            pchPara="My thoughtful visual designs will celebrate your brand, connect with your audience, and create a natural flow to navigate the site. I hope these samples of my work will spark your imagination.
-            "
-            pchImgs={[
-              {
-              img: DesignImg1, 
-              index: '1',
-              alt: 'Placeholder Image'
-              },
-  
-              {
-              img: DesignImg2, 
-              index: '2',
-              alt: 'Placeholder Image'
-              },
-  
-              {
-              img: DesignImg3, 
-              index: '3',
-              alt: 'Placeholder Image'
-              },
-  
-              {
-              img: DesignImg4, 
-              index: '4',
-              alt: 'Placeholder Image'
-              },
-  
-              {
-              img: DesignImg5, 
-              index: '5',
-              alt: 'Placeholder Image'
-              },
-  
-              {
-              img: DesignImg6, 
-              index: '6',
-              alt: 'Placeholder Image'
-              },
-            ]}
-            />
-          </div>
-        </div>
+      <div className="vr-header">
+        <SectionHeader 
+        text="Visions Revealed"
+        />
       </div>
+
+      <div className="dev-section">
+        <h1>Development</h1>
+        <p></p>
+      </div>
+
+      <div className="design-section">
+        <h1>Design</h1>
+        <p></p>
+      </div>
+  
       
-      <div className="port-footer">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   )
 }
