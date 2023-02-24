@@ -31,7 +31,7 @@ function PortfolioPage() {
 
       <div className="dev-section">
         <h1>Development</h1>
-        <p></p>
+        <p>A flawless user experience is vital to maintain site engagement. I employ industry-best technology and techniques to keep your site functioning and your visitors confident. Have a peek at some of my smooth-running creations below.</p>
 
         <div className="dev-port-cards">
 
