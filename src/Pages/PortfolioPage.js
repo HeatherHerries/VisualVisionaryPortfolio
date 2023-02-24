@@ -32,11 +32,19 @@ function PortfolioPage() {
       <div className="dev-section">
         <h1>Development</h1>
         <p></p>
+
+        <div className="dev-port-cards">
+
+        </div>
       </div>
 
       <div className="design-section">
         <h1>Design</h1>
         <p></p>
+
+        <div className="design-port-cards">
+          
+        </div>
       </div>
   
       
