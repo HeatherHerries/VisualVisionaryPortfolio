@@ -3,18 +3,75 @@ import '../Styles/PortfolioPage.css'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import SectionHeader from '../Components/SectionHeader'
-import DevImg1 from '../Assets/Images/dev-placeholder-1.png'
+import DevImg1 from '../Assets/Images/pcc-mockup.png'
 import DevImg2 from '../Assets/Images/dev-placeholder-2.png'
 import DevImg3 from '../Assets/Images/dev-placeholder-3.png'
 import DevImg4 from '../Assets/Images/dev-placeholder-4.png'
 import DevImg5 from '../Assets/Images/dev-placeholder-5.png'
 import DevImg6 from '../Assets/Images/dev-placeholder-6.png'
-import DesignImg1 from '../Assets/Images/design-placeholder-1.png'
-import DesignImg2 from '../Assets/Images/design-placeholder-2.png'
-import DesignImg3 from '../Assets/Images/design-placeholder-3.png'
-import DesignImg4 from '../Assets/Images/design-placeholder-4.png'
-import DesignImg5 from '../Assets/Images/design-placeholder-5.png'
-import DesignImg6 from '../Assets/Images/design-placeholder-6.png'
+import PortCard from '../Components/PortCard'
+
+const DevCardData =[
+  {
+    img: DevImg1,
+    title: 'ProjectCode Co-op',
+    subtitle: 'Tools Used',
+    item1: 'React',
+    item2: 'React Bootstrap',
+    item3: 'Netlify Form Management',
+    item4: 'Shopify API'
+  },
+
+  {
+    img: DevImg2,
+    title: 'ProjectCode Co-op',
+    subtitle: 'Tools Used',
+    item1: 'React',
+    item2: 'React Bootstrap',
+    item3: 'Netlify Form Management',
+    item4: 'Shopify API'
+  },
+
+  {
+    img: DevImg3,
+    title: 'ProjectCode Co-op',
+    subtitle: 'Tools Used',
+    item1: 'React',
+    item2: 'React Bootstrap',
+    item3: 'Netlify Form Management',
+    item4: 'Shopify API'
+  },
+
+  {
+    img: DevImg4,
+    title: 'ProjectCode Co-op',
+    subtitle: 'Tools Used',
+    item1: 'React',
+    item2: 'React Bootstrap',
+    item3: 'Netlify Form Management',
+    item4: 'Shopify API'
+  },
+
+  {
+    img: DevImg5,
+    title: 'ProjectCode Co-op',
+    subtitle: 'Tools Used',
+    item1: 'React',
+    item2: 'React Bootstrap',
+    item3: 'Netlify Form Management',
+    item4: 'Shopify API'
+  },
+
+  {
+    img: DevImg6,
+    title: 'ProjectCode Co-op',
+    subtitle: 'Tools Used',
+    item1: 'React',
+    item2: 'React Bootstrap',
+    item3: 'Netlify Form Management',
+    item4: 'Shopify API'
+  }
+]
 
 
 function PortfolioPage() {
@@ -30,24 +87,13 @@ function PortfolioPage() {
       </div>
 
       <div className="dev-section">
-        <h1>Development</h1>
-        <p>A flawless user experience is vital to maintain site engagement. I employ industry-best technology and techniques to keep your site functioning and your visitors confident. Have a peek at some of my smooth-running creations below.</p>
+        <h1 className="description-title">Development</h1>
+        <p className="description">A flawless user experience is vital to maintain site engagement. I employ industry-best technology and techniques to keep your site functioning and your visitors confident. Have a peek at some of my smooth-running creations below.</p>
 
         <div className="dev-port-cards">
-
+          <PortCard details={DevCardData}/>
         </div>
       </div>
-
-      <div className="design-section">
-        <h1>Design</h1>
-        <p></p>
-
-        <div className="design-port-cards">
-          
-        </div>
-      </div>
-  
-      
       <Footer />
     </div>
   )
