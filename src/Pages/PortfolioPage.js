@@ -54,60 +54,60 @@ function PortfolioPage() {
             img: DevImg2, 
             index: '2',
             alt: 'Placeholder Image',
-            title: 'Title',
-            subtitle: 'Tools used:',
-            item1: 'Item 1',
-            item2: 'Item 2',
-            item3: 'Item 3',
-            item4: 'Item 4'
+            title: 'Rebellious Meow',
+            subtitle: 'Project Coming Soon',
+            item1: '',
+            item2: '',
+            item3: '',
+            item4: ''
             },
 
             {
             img: DevImg3, 
             index: '3',
             alt: 'Placeholder Image',
-            title: 'Title',
-            subtitle: 'Tools used:',
-            item1: 'Item 1',
-            item2: 'Item 2',
-            item3: 'Item 3',
-            item4: 'Item 4'
+            title: '',
+            subtitle: 'Project Coming Soon',
+            item1: '',
+            item2: '',
+            item3: '',
+            item4: ''
             },
 
             {
             img: DevImg4, 
             index: '4',
-            alt: 'Placeholder Image',
-            title: 'Title',
-            subtitle: 'Tools used:',
-            item1: 'Item 1',
-            item2: 'Item 2',
-            item3: 'Item 3',
-            item4: 'Item 4'
+            alt: '',
+            title: '',
+            subtitle: 'Project Coming Soon',
+            item1: '',
+            item2: '',
+            item3: '',
+            item4: ''
             },
 
             {
             img: DevImg5, 
             index: '5',
             alt: 'Placeholder Image',
-            title: 'Title',
-            subtitle: 'Tools used:',
-            item1: 'Item 1',
-            item2: 'Item 2',
-            item3: 'Item 3',
-            item4: 'Item 4'
+            title: '',
+            subtitle: 'Project Coming Soon',
+            item1: '',
+            item2: '',
+            item3: '',
+            item4: ''
             },
 
             {
             img: DevImg6, 
             index: '6',
             alt: 'Placeholder Image',
-            title: 'Title',
-            subtitle: 'Tools used:',
-            item1: 'Item 1',
-            item2: 'Item 2',
-            item3: 'Item 3',
-            item4: 'Item 4'
+            title: '',
+            subtitle: 'Project Coming Soon',
+            item1: '',
+            item2: '',
+            item3: '',
+            item4: ''
             },
           ]}
           />
@@ -123,72 +123,72 @@ function PortfolioPage() {
               img: DesignImg1, 
               index: '1',
               alt: 'Placeholder Image',
-              title: 'Title',
-              subtitle: 'Tools used:',
-              item1: 'Item 1',
-              item2: 'Item 2',
-              item3: 'Item 3',
-              item4: 'Item 4'
+              title: '',
+              subtitle: 'Project Coming Soon',
+              item1: '',
+              item2: '',
+              item3: '',
+              item4: ''
               },
   
               {
               img: DesignImg2, 
               index: '2',
               alt: 'Placeholder Image',
-              title: 'Title',
-              subtitle: 'Tools used:',
-              item1: 'Item 1',
-              item2: 'Item 2',
-              item3: 'Item 3',
-              item4: 'Item 4'
+              title: '',
+              subtitle: 'Project Coming Soon',
+              item1: '',
+              item2: '',
+              item3: '',
+              item4: ''
               },
   
               {
               img: DesignImg3, 
               index: '3',
               alt: 'Placeholder Image',
-              title: 'Title',
-              subtitle: 'Tools used:',
-              item1: 'Item 1',
-              item2: 'Item 2',
-              item3: 'Item 3',
-              item4: 'Item 4'
+              title: '',
+              subtitle: 'Project Coming Soon',
+              item1: '',
+              item2: '',
+              item3: '',
+              item4: ''
               },
   
               {
               img: DesignImg4, 
               index: '4',
               alt: 'Placeholder Image',
-              title: 'Title',
-              subtitle: 'Tools used:',
-              item1: 'Item 1',
-              item2: 'Item 2',
-              item3: 'Item 3',
-              item4: 'Item 4'
+              title: '',
+              subtitle: 'Project Coming Soon',
+              item1: '',
+              item2: '',
+              item3: '',
+              item4: ''
               },
   
               {
               img: DesignImg5, 
               index: '5',
               alt: 'Placeholder Image',
-              title: 'Title',
-              subtitle: 'Tools used:',
-              item1: 'Item 1',
-              item2: 'Item 2',
-              item3: 'Item 3',
-              item4: 'Item 4'
+              title: '',
+              subtitle: 'Project Coming Soon',
+              item1: '',
+              item2: '',
+              item3: '',
+              item4: ''
               },
   
               {
               img: DesignImg6, 
               index: '6',
               alt: 'Placeholder Image',
-              title: 'Title',
-              subtitle: 'Tools used:',
-              item1: 'Item 1',
-              item2: 'Item 2',
-              item3: 'Item 3',
-              item4: 'Item 4'
+              title: '',
+              subtitle: 'Project Coming Soon',
+              item1: '',
+              item2: '',
+              item3: '',
+              item4: ''
               },
             ]}
             />

@@ -21,10 +21,21 @@ function PortCardHolder({sbText, pchPara, pchImgs}) {
         {pchImgs.map((pchImg) => 
         
         <>
-        <img className={`img${pchImg.index}`} key={pchImg.index} src={pchImg.img} alt={pchImg.alt} />
-        
-        <h1 className={`img${pchImg.index}`} key={pchImg.index}>{pchImg.title}</h1>
-        
+          <div class="pch-card-container">
+            <img className={`img${pchImg.index}`} key={pchImg.index} src={pchImg.img} alt={pchImg.alt} />
+            
+            <h1 className={`img${pchImg.index}`} id="pch-card-title"key={pchImg.index}>{pchImg.title}</h1>
+
+            <h3 className={`img${pchImg.index}`} id="pch-card-subtitle"key={pchImg.index}>{pchImg.subtitle}</h3>
+
+            <p className={`img${pchImg.index}`} id="pch-card-item1"key={pchImg.index}>{pchImg.item1}</p>
+
+            <p className={`img${pchImg.index}`} id="pch-card-item2"key={pchImg.index}>{pchImg.item2}</p>
+
+            <p className={`img${pchImg.index}`} id="pch-card-item3"key={pchImg.index}>{pchImg.item3}</p>
+
+            <p className={`img${pchImg.index}`} id="pch-card-item4"key={pchImg.index}>{pchImg.item4}</p>
+          </div>
         </>
         )}
 

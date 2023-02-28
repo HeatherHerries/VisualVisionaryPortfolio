@@ -13,6 +13,15 @@
   padding: 0 0 3vh 0;
 }
 
+.pch-card-container {
+  transition: 300ms ease-out;
+}
+
+.pch-card-container:hover {
+  transform: scale(1.4);
+  transition: 300ms ease-in;
+}
+
 .pch-imgs {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -21,15 +30,53 @@
 
 .pch-imgs img {
   width: 41vw;
-  transition: 300ms ease-out;
 }
 
-.pch-imgs img:hover {
-  transform: scale(1.4);
-  transition: 300ms ease-in;
+#pch-card-title {
+  width: 41vw;
+  position: absolute;
+  margin-top: -23vw;
+  text-align: center;
+  color: #224048;
 }
 
-.pch-imgs h1 {
-  
+#pch-card-subtitle {
+  width: 41vw;
+  position: absolute;
+  margin-top: -16vw;
+  text-align: center;
+  color: #224048;
+}
+
+#pch-card-item1 {
+  width: 41vw;
+  position: absolute;
+  margin-top: -12vw;
+  text-align: center;
+  color: #224048;
+}
+
+#pch-card-item2 {
+  width: 41vw;
+  position: absolute;
+  margin-top: -10vw;
+  text-align: center;
+  color: #224048;
+}
+
+#pch-card-item3 {
+  width: 41vw;
+  position: absolute;
+  margin-top: -8vw;
+  text-align: center;
+  color: #224048;
+}
+
+#pch-card-item4 {
+  width: 41vw;
+  position: absolute;
+  margin-top: -6vw;
+  text-align: center;
+  color: #224048;
 }
 
