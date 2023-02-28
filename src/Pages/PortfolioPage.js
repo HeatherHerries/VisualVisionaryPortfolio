@@ -41,37 +41,73 @@ function PortfolioPage() {
             {
             img: DevImg1, 
             index: '1',
-            alt: 'Placeholder Image'
+            alt: 'Placeholder Image',
+            title: 'ProjectCode Co-op',
+            subtitle: 'Tools used:',
+            item1: 'HTML / CSS',
+            item2: 'React',
+            item3: 'React Bootstrap',
+            item4: 'Netlify Form Management'
             },
 
             {
             img: DevImg2, 
             index: '2',
-            alt: 'Placeholder Image'
+            alt: 'Placeholder Image',
+            title: 'Title',
+            subtitle: 'Tools used:',
+            item1: 'Item 1',
+            item2: 'Item 2',
+            item3: 'Item 3',
+            item4: 'Item 4'
             },
 
             {
             img: DevImg3, 
             index: '3',
-            alt: 'Placeholder Image'
+            alt: 'Placeholder Image',
+            title: 'Title',
+            subtitle: 'Tools used:',
+            item1: 'Item 1',
+            item2: 'Item 2',
+            item3: 'Item 3',
+            item4: 'Item 4'
             },
 
             {
             img: DevImg4, 
             index: '4',
-            alt: 'Placeholder Image'
+            alt: 'Placeholder Image',
+            title: 'Title',
+            subtitle: 'Tools used:',
+            item1: 'Item 1',
+            item2: 'Item 2',
+            item3: 'Item 3',
+            item4: 'Item 4'
             },
 
             {
             img: DevImg5, 
             index: '5',
-            alt: 'Placeholder Image'
+            alt: 'Placeholder Image',
+            title: 'Title',
+            subtitle: 'Tools used:',
+            item1: 'Item 1',
+            item2: 'Item 2',
+            item3: 'Item 3',
+            item4: 'Item 4'
             },
 
             {
             img: DevImg6, 
             index: '6',
-            alt: 'Placeholder Image'
+            alt: 'Placeholder Image',
+            title: 'Title',
+            subtitle: 'Tools used:',
+            item1: 'Item 1',
+            item2: 'Item 2',
+            item3: 'Item 3',
+            item4: 'Item 4'
             },
           ]}
           />
@@ -86,37 +122,73 @@ function PortfolioPage() {
               {
               img: DesignImg1, 
               index: '1',
-              alt: 'Placeholder Image'
+              alt: 'Placeholder Image',
+              title: 'Title',
+              subtitle: 'Tools used:',
+              item1: 'Item 1',
+              item2: 'Item 2',
+              item3: 'Item 3',
+              item4: 'Item 4'
               },
   
               {
               img: DesignImg2, 
               index: '2',
-              alt: 'Placeholder Image'
+              alt: 'Placeholder Image',
+              title: 'Title',
+              subtitle: 'Tools used:',
+              item1: 'Item 1',
+              item2: 'Item 2',
+              item3: 'Item 3',
+              item4: 'Item 4'
               },
   
               {
               img: DesignImg3, 
               index: '3',
-              alt: 'Placeholder Image'
+              alt: 'Placeholder Image',
+              title: 'Title',
+              subtitle: 'Tools used:',
+              item1: 'Item 1',
+              item2: 'Item 2',
+              item3: 'Item 3',
+              item4: 'Item 4'
               },
   
               {
               img: DesignImg4, 
               index: '4',
-              alt: 'Placeholder Image'
+              alt: 'Placeholder Image',
+              title: 'Title',
+              subtitle: 'Tools used:',
+              item1: 'Item 1',
+              item2: 'Item 2',
+              item3: 'Item 3',
+              item4: 'Item 4'
               },
   
               {
               img: DesignImg5, 
               index: '5',
-              alt: 'Placeholder Image'
+              alt: 'Placeholder Image',
+              title: 'Title',
+              subtitle: 'Tools used:',
+              item1: 'Item 1',
+              item2: 'Item 2',
+              item3: 'Item 3',
+              item4: 'Item 4'
               },
   
               {
               img: DesignImg6, 
               index: '6',
-              alt: 'Placeholder Image'
+              alt: 'Placeholder Image',
+              title: 'Title',
+              subtitle: 'Tools used:',
+              item1: 'Item 1',
+              item2: 'Item 2',
+              item3: 'Item 3',
+              item4: 'Item 4'
               },
             ]}
             />

@@ -18,9 +18,19 @@ function PortCardHolder({sbText, pchPara, pchImgs}) {
 
       <div className="pch-imgs">
 
-        {pchImgs.map((pchImg) => <img className={`img${pchImg.index}`} key={pchImg.index} src={pchImg.img} alt={pchImg.alt} />)}
+        {pchImgs.map((pchImg) => 
+        
+        <>
+        <img className={`img${pchImg.index}`} key={pchImg.index} src={pchImg.img} alt={pchImg.alt} />
+        
+        <h1 className={`img${pchImg.index}`} key={pchImg.index}>{pchImg.title}</h1>
+        
+        </>
+        )}
 
+      
       </div>
+
     </div>
   )
 }
