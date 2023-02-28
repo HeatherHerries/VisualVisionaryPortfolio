@@ -1,5 +1,7 @@
 .portfolio-page-container {
+  width: 100vw;
   background-color: #224048;
+  margin-left: -1vw;
 }
 
 .vr-header {
@@ -28,18 +30,20 @@
   font-size: 2.3vw;
 }
 
-.dev-port-cards {
-  width: 280vw;
-display: flex;
-flex-wrap: wrap;
+.port-cards {
+  display: grid;
+  grid-template-columns: 45vw 45vw;
+  grid-template-rows: 31vw 31vw 31vw;
+  padding-right: 8vw;
+  overflow: hidden;
+  padding-bottom: 15vw;
 }
 
-/*.design-section { 
+.design-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 10vw;
-  padding-bottom: 10vw;
-}*/
+  padding: 0 5vw 0 5vw;
+}
 

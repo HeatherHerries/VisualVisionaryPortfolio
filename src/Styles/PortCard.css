@@ -3,7 +3,12 @@
   width: 100vw;
   height: 100vw;
   padding: 5vw;
+  transition: 300ms ease-out;
+}
 
+.port-card-container:hover {
+  transform: scale(1.1);
+  transition: 300ms ease-in;
 }
 
 .card-img {

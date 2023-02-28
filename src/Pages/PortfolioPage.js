@@ -90,7 +90,16 @@ function PortfolioPage() {
         <h1 className="description-title">Development</h1>
         <p className="description">A flawless user experience is vital to maintain site engagement. I employ industry-best technology and techniques to keep your site functioning and your visitors confident. Have a peek at some of my smooth-running creations below.</p>
 
-        <div className="dev-port-cards">
+        <div className="port-cards">
+          <PortCard details={DevCardData}/>
+        </div>
+      </div>
+
+      <div className="design-section">
+        <h1 className="description-title">Development</h1>
+        <p className="description">A flawless user experience is vital to maintain site engagement. I employ industry-best technology and techniques to keep your site functioning and your visitors confident. Have a peek at some of my smooth-running creations below.</p>
+
+        <div className="port-cards">
           <PortCard details={DevCardData}/>
         </div>
       </div>
