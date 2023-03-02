@@ -3,4 +3,5 @@
   height: 1.09vh;
   background-color:#34616D;
   margin-left: -1vw;
+  box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.5);
 }

@@ -6,6 +6,7 @@
   width: 48vw;
   height: 12vw;
   border-radius: 1.25rem;
+  box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.5);
 }
 .small-contact-card img {
   width: 9vw;

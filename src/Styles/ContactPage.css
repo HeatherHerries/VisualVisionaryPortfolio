@@ -24,6 +24,7 @@
   height: 30vw;
   background-color: #632D47;
   border-radius: 10px;
+  box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.5);
 }
 
 .contact-banner-text {
@@ -51,6 +52,7 @@
   font-size: 4vw;
   transition: 300ms ease-out;
   margin: 0 0 10vh 35vw;
+  box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.5);
 }
 
 .submit textarea:hover {

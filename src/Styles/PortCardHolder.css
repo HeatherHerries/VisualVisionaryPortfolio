@@ -15,6 +15,7 @@
 
 .pch-card-container {
   transition: 300ms ease-out;
+  
 }
 
 .pch-card-container:hover {
@@ -37,7 +38,9 @@
   position: absolute;
   margin-top: -23vw;
   text-align: center;
-  color: #224048;
+  color: #E8C8CB;
+  font-weight: 300;
+  font-size: 4.5vw;
 }
 
 #pch-card-subtitle {
@@ -45,7 +48,9 @@
   position: absolute;
   margin-top: -16vw;
   text-align: center;
-  color: #224048;
+  color: #E8C8CB;
+  font-weight: 300;
+  font-size: 3.1vw;
 }
 
 #pch-card-item1 {
@@ -53,7 +58,9 @@
   position: absolute;
   margin-top: -12vw;
   text-align: center;
-  color: #224048;
+  color: #E8C8CB;
+  font-weight: 300;
+  font-size: 2.1vw;
 }
 
 #pch-card-item2 {
@@ -61,7 +68,9 @@
   position: absolute;
   margin-top: -10vw;
   text-align: center;
-  color: #224048;
+  color: #E8C8CB;
+  font-weight: 300;
+  font-size: 2.1vw;
 }
 
 #pch-card-item3 {
@@ -69,7 +78,9 @@
   position: absolute;
   margin-top: -8vw;
   text-align: center;
-  color: #224048;
+  color: #E8C8CB;
+  font-weight: 300;
+  font-size: 2.1vw;
 }
 
 #pch-card-item4 {
@@ -77,6 +88,8 @@
   position: absolute;
   margin-top: -6vw;
   text-align: center;
-  color: #224048;
+  color: #E8C8CB;
+  font-weight: 300;
+  font-size: 2.1vw;
 }
 

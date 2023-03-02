@@ -7,4 +7,5 @@ textarea {
   padding: 0.625rem 0 0 0.625rem;
   font-size: 4vw;
   font-weight: 300;
+  box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.5);
 }

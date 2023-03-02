@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/SECard.css'
 
-function SECard({header1, image, alt,header2, para, header3, lis}) {
+function SECard({header1, image, alt,header2, para}) {
 
 
   return (

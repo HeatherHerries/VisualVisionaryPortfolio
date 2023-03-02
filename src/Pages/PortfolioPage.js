@@ -3,19 +3,20 @@ import '../Styles/PortfolioPage.css'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import SectionHeader from '../Components/SectionHeader'
+import SectionBreakLine from '../Components/SectionBreakLine'
 import PortCardHolder from '../Components/PortCardHolder'
-import DevImg1 from '../Assets/Images/dev-placeholder-1.png'
-import DevImg2 from '../Assets/Images/dev-placeholder-2.png'
-import DevImg3 from '../Assets/Images/dev-placeholder-3.png'
-import DevImg4 from '../Assets/Images/dev-placeholder-4.png'
-import DevImg5 from '../Assets/Images/dev-placeholder-5.png'
-import DevImg6 from '../Assets/Images/dev-placeholder-6.png'
-import DesignImg1 from '../Assets/Images/design-placeholder-1.png'
-import DesignImg2 from '../Assets/Images/design-placeholder-2.png'
-import DesignImg3 from '../Assets/Images/design-placeholder-3.png'
-import DesignImg4 from '../Assets/Images/design-placeholder-4.png'
-import DesignImg5 from '../Assets/Images/design-placeholder-5.png'
-import DesignImg6 from '../Assets/Images/design-placeholder-6.png'
+import DevImg1 from '../Assets/Images/PCCMockup.png'
+import DevImg2 from '../Assets/Images/portfolio-placeholder.png'
+import DevImg3 from '../Assets/Images/portfolio-placeholder.png'
+import DevImg4 from '../Assets/Images/portfolio-placeholder.png'
+import DevImg5 from '../Assets/Images/portfolio-placeholder.png'
+import DevImg6 from '../Assets/Images/portfolio-placeholder.png'
+import DesignImg1 from '../Assets/Images/portfolio-placeholder.png'
+import DesignImg2 from '../Assets/Images/portfolio-placeholder.png'
+import DesignImg3 from '../Assets/Images/portfolio-placeholder.png'
+import DesignImg4 from '../Assets/Images/portfolio-placeholder.png'
+import DesignImg5 from '../Assets/Images/portfolio-placeholder.png'
+import DesignImg6 from '../Assets/Images/portfolio-placeholder.png'
 
 
 function PortfolioPage() {
@@ -195,8 +196,13 @@ function PortfolioPage() {
           </div>
         </div>
       </div>
+
+      
       
       <div className="port-footer">
+      <div className="portfolio-break-line">
+        <SectionBreakLine />
+      </div>
         <Footer />
       </div>
     </div>

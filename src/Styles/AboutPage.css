@@ -81,6 +81,7 @@ margin: 4vh 0 8vh 0;
   background:rgba(52, 97, 109, 0.3);
   border-radius: 1.25rem;
   margin-left: -5vw;
+  box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.5);
 }
 
 .tools-icon-container img {
@@ -93,6 +94,7 @@ margin: 4vh 0 8vh 0;
   transform: scale(1.3);
   transition: 300ms ease-in;
   cursor: pointer;
+  
 }
 
 
