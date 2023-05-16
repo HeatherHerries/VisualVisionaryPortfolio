@@ -21,3 +21,25 @@
 .lp-content img {
   width: 35vw;
 }
+
+@media screen and (max-width: 480px) {
+  .landing-page-container {
+    background-size: 160vw;
+  }
+
+  .lp-content img {
+    width: 42vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landing-page-container {
+    background-size: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landing-page-container {
+    background-size: 100vw;
+  }
+}

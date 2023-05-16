@@ -25,3 +25,12 @@
  transition: 300ms ease-in;
 }
 
+@media screen and (max-width: 480px) {
+  .social-links-container {
+    width: 40vw;
+  }
+
+  .social-links-container img {
+    width: 6vw;
+  }
+}
